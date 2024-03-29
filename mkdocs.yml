@@ -1,0 +1,32 @@
+site_name: Apuntes Amparo
+docs_dir: 'md'
+site_dir: 'docs'
+
+# nav:
+nav:
+  - 1 - ¿Qué es la Inteligencia Artificial?: ¿Qué es la Inteligencia Artificial?.md
+  - 2 - Filosofia de la IA: Filosofia de la IA.md
+  - 3 - Partes de la Inteligencia Artificial: Partes de la Inteligencia Artificial.md
+  - 4 - Campos de la Inteligencia Artificia: Campos de la Inteligencia Artificia.md
+  - 5 - Implicaciones éticas y sociales: Implicaciones éticas y sociales.md
+  - 6 - Realidad Virtual vs Aumentada: Realidad Virtual vs Aumentada.md
+
+# Exteniones
+markdown_extensions:
+  - admonition
+  - attr_list         
+
+# Tema
+theme: 
+  name: readthedocs
+
+  features:
+    # utilidades para copia
+    - content.code.copy 
+    - content.code.select
+    - content.code.annotate
+    - navigation.footer       
+    - navigation.top    
+
+plugins:
+  - search      # plugin del buscador
